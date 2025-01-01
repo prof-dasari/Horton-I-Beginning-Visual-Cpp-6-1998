@@ -1,0 +1,57 @@
+// ATLSignal.idl : IDL source for ATLSignal.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ATLSignal.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+#include "olectl.h"
+	
+
+	[
+		object,
+		uuid(CACE7C2D-5C4E-11D2-963F-00A0C94CB8B3),
+		dual,
+		helpstring("ISignal Interface"),
+		pointer_default(unique)
+	]
+	interface ISignal : IDispatch
+	{
+		[propget, id(1), helpstring("property StartRed")] HRESULT StartRed([out, retval] BOOL *pVal);
+		[propput, id(1), helpstring("property StartRed")] HRESULT StartRed([in] BOOL newVal);
+		[propget, id(2), helpstring("property StopOrGoTime")] HRESULT StopOrGoTime([out, retval] long *pVal);
+		[propput, id(2), helpstring("property StopOrGoTime")] HRESULT StopOrGoTime([in] long newVal);
+	};
+
+[
+	uuid(CACE7C21-5C4E-11D2-963F-00A0C94CB8B3),
+	version(1.0),
+	helpstring("ATLSignal 1.0 Type Library")
+]
+library ATLSIGNALLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(CACE7C2F-5C4E-11D2-963F-00A0C94CB8B3),
+		helpstring("_ISignalEvents Interface")
+	]
+	dispinterface _ISignalEvents
+	{
+		properties:
+		methods:
+			[id(1)] void SignalChanged([in]long lSignalState);
+	};
+
+	[
+		uuid(CACE7C2E-5C4E-11D2-963F-00A0C94CB8B3),
+		helpstring("Signal Class")
+	]
+	coclass Signal
+	{
+		[default] interface ISignal;
+		[default, source] dispinterface _ISignalEvents;
+	};
+};

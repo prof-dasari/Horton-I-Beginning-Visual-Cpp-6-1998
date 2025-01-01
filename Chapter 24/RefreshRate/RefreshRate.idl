@@ -1,0 +1,40 @@
+// RefreshRate.idl : IDL source for RefreshRate.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (RefreshRate.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+   [
+      object,
+      uuid(B34EF5CF-7B79-11D0-96FE-002018349816),
+      dual,
+      helpstring("IRefRate Interface"),
+      pointer_default(unique)
+   ]
+   interface IRefRate : IDispatch
+   {
+      HRESULT RefreshRate([in] long HScan, [out, retval] long* retval);
+      HRESULT GetVRes([out, retval] long* retval);
+      HRESULT GetHRes([out, retval] long* retval);
+   };
+[
+   uuid(B34EF5C2-7B79-11D0-96FE-002018349816),
+   version(1.0),
+   helpstring("RefreshRate 1.0 Type Library")
+]
+library REFRESHRATELib
+{
+   importlib("stdole32.tlb");
+
+   [
+      uuid(B34EF5D0-7B79-11D0-96FE-002018349816),
+      helpstring("RefRate Class")
+   ]
+   coclass RefRate
+   {
+      [default] interface IRefRate;
+   };
+};

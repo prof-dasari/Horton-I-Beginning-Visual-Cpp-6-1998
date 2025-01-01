@@ -1,0 +1,247 @@
+
+The name is Ivor Horton
+The name is Ivor Horton
+Charles Dickens is less than Mary Dickens
+Charles Dickens is less than Mary Miller
+Charles Dickens is less than Emily Miller
+Charles Dickens is less than Emily Steinbeck
+Charles Dickens is less than Charles Steinbeck
+Charles Dickens is less than Charles Shelley
+Charles Dickens is less than Arthur Shelley
+Charles Dickens is greater than Arthur Bronte
+Charles Dickens is greater than John Bronte
+Mary Dickens is less than Mary Miller
+Mary Dickens is less than Emily Miller
+Mary Dickens is less than Emily Steinbeck
+Mary Dickens is less than Charles Steinbeck
+Mary Dickens is less than Charles Shelley
+Mary Dickens is less than Arthur Shelley
+Mary Dickens is greater than Arthur Bronte
+Mary Dickens is greater than John Bronte
+Mary Miller is greater than Emily Miller
+Mary Miller is less than Emily Steinbeck
+Mary Miller is less than Charles Steinbeck
+Mary Miller is less than Charles Shelley
+Mary Miller is less than Arthur Shelley
+Mary Miller is greater than Arthur Bronte
+Mary Miller is greater than John Bronte
+Emily Miller is less than Emily Steinbeck
+Emily Miller is less than Charles Steinbeck
+Emily Miller is less than Charles Shelley
+Emily Miller is less than Arthur Shelley
+Emily Miller is greater than Arthur Bronte
+Emily Miller is greater than John Bronte
+Emily Steinbeck is greater than Charles Steinbeck
+Emily Steinbeck is greater than Charles Shelley
+Emily Steinbeck is greater than Arthur Shelley
+Emily Steinbeck is greater than Arthur Bronte
+Emily Steinbeck is greater than John Bronte
+Charles Steinbeck is greater than Charles Shelley
+Charles Steinbeck is greater than Arthur Shelley
+Charles Steinbeck is greater than Arthur Bronte
+Charles Steinbeck is greater than John Bronte
+Charles Shelley is greater than Arthur Shelley
+Charles Shelley is greater than Arthur Bronte
+Charles Shelley is greater than John Bronte
+Arthur Shelley is greater than Arthur Bronte
+Arthur Shelley is greater than John Bronte
+Arthur Bronte is less than John Bronte
+Detected memory leaks!
+Dumping objects ->
+{118} normal block at 0x007910E0, 12 bytes long.
+ Data: <            > CD CD CD CD CD CD CD CD CD CD CD CD 
+{117} normal block at 0x00791120, 12 bytes long.
+ Data: <John Bronte > 4A 6F 68 6E 20 42 72 6F 6E 74 65 00 
+{116} normal block at 0x00791160, 14 bytes long.
+ Data: <Arthur Bronte > 41 72 74 68 75 72 20 42 72 6F 6E 74 65 00 
+{115} normal block at 0x007911A0, 12 bytes long.
+ Data: <John Bronte > 4A 6F 68 6E 20 42 72 6F 6E 74 65 00 
+{114} normal block at 0x007911E0, 14 bytes long.
+ Data: <Arthur Bronte > 41 72 74 68 75 72 20 42 72 6F 6E 74 65 00 
+{113} normal block at 0x00791220, 15 bytes long.
+ Data: <Arthur Shelley > 41 72 74 68 75 72 20 53 68 65 6C 6C 65 79 00 
+{112} normal block at 0x00791260, 12 bytes long.
+ Data: <John Bronte > 4A 6F 68 6E 20 42 72 6F 6E 74 65 00 
+{111} normal block at 0x007912A0, 14 bytes long.
+ Data: <Arthur Bronte > 41 72 74 68 75 72 20 42 72 6F 6E 74 65 00 
+{110} normal block at 0x007912E0, 15 bytes long.
+ Data: <Arthur Shelley > 41 72 74 68 75 72 20 53 68 65 6C 6C 65 79 00 
+{109} normal block at 0x00791320, 16 bytes long.
+ Data: <Charles Shelley > 43 68 61 72 6C 65 73 20 53 68 65 6C 6C 65 79 00 
+{108} normal block at 0x00791360, 12 bytes long.
+ Data: <John Bronte > 4A 6F 68 6E 20 42 72 6F 6E 74 65 00 
+{107} normal block at 0x007913A0, 14 bytes long.
+ Data: <Arthur Bronte > 41 72 74 68 75 72 20 42 72 6F 6E 74 65 00 
+{106} normal block at 0x007913E0, 15 bytes long.
+ Data: <Arthur Shelley > 41 72 74 68 75 72 20 53 68 65 6C 6C 65 79 00 
+{105} normal block at 0x00791420, 16 bytes long.
+ Data: <Charles Shelley > 43 68 61 72 6C 65 73 20 53 68 65 6C 6C 65 79 00 
+{104} normal block at 0x00791460, 18 bytes long.
+ Data: <Charles Steinbec> 43 68 61 72 6C 65 73 20 53 74 65 69 6E 62 65 63 
+{103} normal block at 0x007914A0, 12 bytes long.
+ Data: <John Bronte > 4A 6F 68 6E 20 42 72 6F 6E 74 65 00 
+{102} normal block at 0x007914E0, 14 bytes long.
+ Data: <Arthur Bronte > 41 72 74 68 75 72 20 42 72 6F 6E 74 65 00 
+{101} normal block at 0x00791520, 15 bytes long.
+ Data: <Arthur Shelley > 41 72 74 68 75 72 20 53 68 65 6C 6C 65 79 00 
+{100} normal block at 0x00791560, 16 bytes long.
+ Data: <Charles Shelley > 43 68 61 72 6C 65 73 20 53 68 65 6C 6C 65 79 00 
+{99} normal block at 0x007915A0, 18 bytes long.
+ Data: <Charles Steinbec> 43 68 61 72 6C 65 73 20 53 74 65 69 6E 62 65 63 
+{98} normal block at 0x007915E0, 16 bytes long.
+ Data: <Emily Steinbeck > 45 6D 69 6C 79 20 53 74 65 69 6E 62 65 63 6B 00 
+{97} normal block at 0x00791620, 12 bytes long.
+ Data: <John Bronte > 4A 6F 68 6E 20 42 72 6F 6E 74 65 00 
+{96} normal block at 0x00791660, 14 bytes long.
+ Data: <Arthur Bronte > 41 72 74 68 75 72 20 42 72 6F 6E 74 65 00 
+{95} normal block at 0x007916A0, 15 bytes long.
+ Data: <Arthur Shelley > 41 72 74 68 75 72 20 53 68 65 6C 6C 65 79 00 
+{94} normal block at 0x007916E0, 16 bytes long.
+ Data: <Charles Shelley > 43 68 61 72 6C 65 73 20 53 68 65 6C 6C 65 79 00 
+{93} normal block at 0x00791720, 18 bytes long.
+ Data: <Charles Steinbec> 43 68 61 72 6C 65 73 20 53 74 65 69 6E 62 65 63 
+{92} normal block at 0x00791760, 16 bytes long.
+ Data: <Emily Steinbeck > 45 6D 69 6C 79 20 53 74 65 69 6E 62 65 63 6B 00 
+{91} normal block at 0x007917A0, 13 bytes long.
+ Data: <Emily Miller > 45 6D 69 6C 79 20 4D 69 6C 6C 65 72 00 
+{90} normal block at 0x007917E0, 12 bytes long.
+ Data: <John Bronte > 4A 6F 68 6E 20 42 72 6F 6E 74 65 00 
+{89} normal block at 0x00791820, 14 bytes long.
+ Data: <Arthur Bronte > 41 72 74 68 75 72 20 42 72 6F 6E 74 65 00 
+{88} normal block at 0x00791860, 15 bytes long.
+ Data: <Arthur Shelley > 41 72 74 68 75 72 20 53 68 65 6C 6C 65 79 00 
+{87} normal block at 0x007918A0, 16 bytes long.
+ Data: <Charles Shelley > 43 68 61 72 6C 65 73 20 53 68 65 6C 6C 65 79 00 
+{86} normal block at 0x007918E0, 18 bytes long.
+ Data: <Charles Steinbec> 43 68 61 72 6C 65 73 20 53 74 65 69 6E 62 65 63 
+{85} normal block at 0x00791920, 16 bytes long.
+ Data: <Emily Steinbeck > 45 6D 69 6C 79 20 53 74 65 69 6E 62 65 63 6B 00 
+{84} normal block at 0x00791960, 13 bytes long.
+ Data: <Emily Miller > 45 6D 69 6C 79 20 4D 69 6C 6C 65 72 00 
+{83} normal block at 0x007919A0, 12 bytes long.
+ Data: <Mary Miller > 4D 61 72 79 20 4D 69 6C 6C 65 72 00 
+{82} normal block at 0x007919E0, 12 bytes long.
+ Data: <John Bronte > 4A 6F 68 6E 20 42 72 6F 6E 74 65 00 
+{81} normal block at 0x00791A20, 14 bytes long.
+ Data: <Arthur Bronte > 41 72 74 68 75 72 20 42 72 6F 6E 74 65 00 
+{80} normal block at 0x00791A60, 15 bytes long.
+ Data: <Arthur Shelley > 41 72 74 68 75 72 20 53 68 65 6C 6C 65 79 00 
+{79} normal block at 0x00791AA0, 16 bytes long.
+ Data: <Charles Shelley > 43 68 61 72 6C 65 73 20 53 68 65 6C 6C 65 79 00 
+{78} normal block at 0x00791AE0, 18 bytes long.
+ Data: <Charles Steinbec> 43 68 61 72 6C 65 73 20 53 74 65 69 6E 62 65 63 
+{77} normal block at 0x00791B20, 16 bytes long.
+ Data: <Emily Steinbeck > 45 6D 69 6C 79 20 53 74 65 69 6E 62 65 63 6B 00 
+{76} normal block at 0x00791B60, 13 bytes long.
+ Data: <Emily Miller > 45 6D 69 6C 79 20 4D 69 6C 6C 65 72 00 
+{75} normal block at 0x00791BA0, 12 bytes long.
+ Data: <Mary Miller > 4D 61 72 79 20 4D 69 6C 6C 65 72 00 
+{74} normal block at 0x00791BE0, 13 bytes long.
+ Data: <Mary Dickens > 4D 61 72 79 20 44 69 63 6B 65 6E 73 00 
+{73} normal block at 0x00791C20, 12 bytes long.
+ Data: <John Bronte > 4A 6F 68 6E 20 42 72 6F 6E 74 65 00 
+{72} normal block at 0x00791C60, 14 bytes long.
+ Data: <Arthur Bronte > 41 72 74 68 75 72 20 42 72 6F 6E 74 65 00 
+{71} normal block at 0x00791CA0, 15 bytes long.
+ Data: <Arthur Shelley > 41 72 74 68 75 72 20 53 68 65 6C 6C 65 79 00 
+{70} normal block at 0x00791CE0, 16 bytes long.
+ Data: <Charles Shelley > 43 68 61 72 6C 65 73 20 53 68 65 6C 6C 65 79 00 
+{69} normal block at 0x00791D20, 18 bytes long.
+ Data: <Charles Steinbec> 43 68 61 72 6C 65 73 20 53 74 65 69 6E 62 65 63 
+{68} normal block at 0x00791D60, 16 bytes long.
+ Data: <Emily Steinbeck > 45 6D 69 6C 79 20 53 74 65 69 6E 62 65 63 6B 00 
+{67} normal block at 0x00791DA0, 13 bytes long.
+ Data: <Emily Miller > 45 6D 69 6C 79 20 4D 69 6C 6C 65 72 00 
+{66} normal block at 0x00791DE0, 12 bytes long.
+ Data: <Mary Miller > 4D 61 72 79 20 4D 69 6C 6C 65 72 00 
+{65} normal block at 0x00791E20, 13 bytes long.
+ Data: <Mary Dickens > 4D 61 72 79 20 44 69 63 6B 65 6E 73 00 
+{64} normal block at 0x00791E60, 16 bytes long.
+ Data: <Charles Dickens > 43 68 61 72 6C 65 73 20 44 69 63 6B 65 6E 73 00 
+{63} normal block at 0x00791EA0, 7 bytes long.
+ Data: <Bronte > 42 72 6F 6E 74 65 00 
+{62} normal block at 0x00791EE0, 5 bytes long.
+ Data: <John > 4A 6F 68 6E 00 
+{61} normal block at 0x00791F20, 7 bytes long.
+ Data: <Bronte > 42 72 6F 6E 74 65 00 
+{60} normal block at 0x00791F60, 7 bytes long.
+ Data: <Arthur > 41 72 74 68 75 72 00 
+{59} normal block at 0x00791FA0, 8 bytes long.
+ Data: <Shelley > 53 68 65 6C 6C 65 79 00 
+{58} normal block at 0x00791FE0, 7 bytes long.
+ Data: <Arthur > 41 72 74 68 75 72 00 
+{57} normal block at 0x00790040, 8 bytes long.
+ Data: <Shelley > 53 68 65 6C 6C 65 79 00 
+{56} normal block at 0x00790080, 8 bytes long.
+ Data: <Charles > 43 68 61 72 6C 65 73 00 
+{55} normal block at 0x007900C0, 10 bytes long.
+ Data: <Steinbeck > 53 74 65 69 6E 62 65 63 6B 00 
+{54} normal block at 0x00790100, 8 bytes long.
+ Data: <Charles > 43 68 61 72 6C 65 73 00 
+{53} normal block at 0x00790140, 10 bytes long.
+ Data: <Steinbeck > 53 74 65 69 6E 62 65 63 6B 00 
+{52} normal block at 0x00790180, 6 bytes long.
+ Data: <Emily > 45 6D 69 6C 79 00 
+{51} normal block at 0x007901C0, 7 bytes long.
+ Data: <Miller > 4D 69 6C 6C 65 72 00 
+{50} normal block at 0x00790200, 6 bytes long.
+ Data: <Emily > 45 6D 69 6C 79 00 
+{49} normal block at 0x00790240, 7 bytes long.
+ Data: <Miller > 4D 69 6C 6C 65 72 00 
+{48} normal block at 0x00790280, 5 bytes long.
+ Data: <Mary > 4D 61 72 79 00 
+{47} normal block at 0x007902C0, 8 bytes long.
+ Data: <Dickens > 44 69 63 6B 65 6E 73 00 
+{46} normal block at 0x00790300, 5 bytes long.
+ Data: <Mary > 4D 61 72 79 00 
+{45} normal block at 0x00790340, 8 bytes long.
+ Data: <Dickens > 44 69 63 6B 65 6E 73 00 
+{44} normal block at 0x00790380, 8 bytes long.
+ Data: <Charles > 43 68 61 72 6C 65 73 00 
+{43} normal block at 0x007903C0, 1 bytes long.
+ Data: < > 00 
+{42} normal block at 0x007903F0, 1 bytes long.
+ Data: < > 00 
+{41} normal block at 0x00790420, 1 bytes long.
+ Data: < > 00 
+{40} normal block at 0x00790450, 1 bytes long.
+ Data: < > 00 
+{39} normal block at 0x00790480, 1 bytes long.
+ Data: < > 00 
+{38} normal block at 0x007904B0, 1 bytes long.
+ Data: < > 00 
+{37} normal block at 0x007904E0, 1 bytes long.
+ Data: < > 00 
+{36} normal block at 0x00790510, 1 bytes long.
+ Data: < > 00 
+{35} normal block at 0x00790540, 1 bytes long.
+ Data: < > 00 
+{34} normal block at 0x00790570, 1 bytes long.
+ Data: < > 00 
+{33} normal block at 0x007905A0, 1 bytes long.
+ Data: < > 00 
+{32} normal block at 0x007905D0, 1 bytes long.
+ Data: < > 00 
+{31} normal block at 0x00790600, 1 bytes long.
+ Data: < > 00 
+{30} normal block at 0x00790630, 1 bytes long.
+ Data: < > 00 
+{29} normal block at 0x00790660, 1 bytes long.
+ Data: < > 00 
+{28} normal block at 0x00790690, 1 bytes long.
+ Data: < > 00 
+{27} normal block at 0x007906C0, 1 bytes long.
+ Data: < > 00 
+{26} normal block at 0x007906F0, 1 bytes long.
+ Data: < > 00 
+{25} normal block at 0x00790C70, 1 bytes long.
+ Data: < > 00 
+{24} normal block at 0x00790CA0, 1 bytes long.
+ Data: < > 00 
+{23} normal block at 0x00790CD0, 12 bytes long.
+ Data: <Ivor Horton > 49 76 6F 72 20 48 6F 72 74 6F 6E 00 
+{21} normal block at 0x00790D10, 7 bytes long.
+ Data: <Horton > 48 6F 72 74 6F 6E 00 
+{20} normal block at 0x00790D50, 5 bytes long.
+ Data: <Ivor > 49 76 6F 72 00 
+Object dump complete.

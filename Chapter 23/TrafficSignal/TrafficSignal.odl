@@ -1,0 +1,81 @@
+// TrafficSignal.odl : type library source for ActiveX Control project.
+
+// This file will be processed by the Make Type Library (mktyplib) tool to
+// produce the type library (TrafficSignal.tlb) that will become a resource in
+// TrafficSignal.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(A833B927-78FF-11D0-9257-00201834E2A3), version(1.0),
+  helpfile("TrafficSignal.hlp"),
+  helpstring("TrafficSignal ActiveX Control module"),
+  control ]
+library TRAFFICSIGNALLib
+{
+	importlib(STDOLE_TLB);
+	importlib(STDTYPE_TLB);
+
+    typedef [uuid(DD9A5702-79B7-11D0-9257-00201834E2A3),
+             helpstring("Signal state constants")]
+             enum {
+                   [helpstring ("Stop")] IsStop = 101,
+                   [helpstring ("Go")] IsGo = 103,
+                   [helpstring ("Ready to stop")] IsReadyToStop = 104
+                   }SignalState;
+
+	//  Primary dispatch interface for CTrafficSignalCtrl
+
+	[ uuid(A833B928-78FF-11D0-9257-00201834E2A3),
+	  helpstring("Dispatch interface for TrafficSignal Control"), hidden ]
+	dispinterface _DTrafficSignal
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CTrafficSignalCtrl)
+			[id(DISPID_BACKCOLOR), bindable, requestedit] OLE_COLOR BackColor;
+			[id(1)] boolean StartRed;
+			[id(2)] long StopOrGoTime;
+			//}}AFX_ODL_PROP
+
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CTrafficSignalCtrl)
+			//}}AFX_ODL_METHOD
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  Event dispatch interface for CTrafficSignalCtrl
+
+	[ uuid(A833B929-78FF-11D0-9257-00201834E2A3),
+	  helpstring("Event interface for TrafficSignal Control") ]
+	dispinterface _DTrafficSignalEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+			// NOTE - ClassWizard will maintain event information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_EVENT(CTrafficSignalCtrl)
+			[id(1)] void SignalChanged(SignalState lNewState);
+			//}}AFX_ODL_EVENT
+	};
+
+	//  Class information for CTrafficSignalCtrl
+
+	[ uuid(A833B92A-78FF-11D0-9257-00201834E2A3),
+	  helpstring("TrafficSignal Control"), control ]
+	coclass TrafficSignal
+	{
+		[default] dispinterface _DTrafficSignal;
+		[default, source] dispinterface _DTrafficSignalEvents;
+	};
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

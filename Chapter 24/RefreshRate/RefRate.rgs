@@ -1,0 +1,24 @@
+HKCR
+{
+	RefRate.RefRate.1 = s 'RefRate Class'
+	{
+		CLSID = s '{B34EF5D0-7B79-11D0-96FE-002018349816}'
+	}
+	RefRate.RefRate = s 'RefRate Class'
+	{
+		CurVer = s 'RefRate.RefRate.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {B34EF5D0-7B79-11D0-96FE-002018349816} = s 'RefRate Class'
+		{
+			ProgID = s 'RefRate.RefRate.1'
+			VersionIndependentProgID = s 'RefRate.RefRate'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+		}
+	}
+}

@@ -1,0 +1,34 @@
+HKCR
+{
+	ATLSignal.Signal.1 = s 'Signal Class'
+	{
+		CLSID = s '{CACE7C2E-5C4E-11D2-963F-00A0C94CB8B3}'
+	}
+	ATLSignal.Signal = s 'Signal Class'
+	{
+		CLSID = s '{CACE7C2E-5C4E-11D2-963F-00A0C94CB8B3}'
+		CurVer = s 'ATLSignal.Signal.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {CACE7C2E-5C4E-11D2-963F-00A0C94CB8B3} = s 'Signal Class'
+		{
+			ProgID = s 'ATLSignal.Signal.1'
+			VersionIndependentProgID = s 'ATLSignal.Signal'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			ForceRemove 'Control'
+			ForceRemove 'Insertable'
+			ForceRemove 'ToolboxBitmap32' = s '%MODULE%, 101'
+			'MiscStatus' = s '0'
+			{
+			    '1' = s '131473'
+			}
+			'TypeLib' = s '{CACE7C21-5C4E-11D2-963F-00A0C94CB8B3}'
+			'Version' = s '1.0'
+		}
+	}
+}
